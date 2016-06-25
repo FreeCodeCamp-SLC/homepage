@@ -1,0 +1,143 @@
+/*I use this to prevent padding bugs*/
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	margin:0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-family: sans-serif;
+}
+
+img{
+	width: 100%;
+}
+
+.header{
+	width: 100%;
+	padding: .8em 10%;
+	height: auto;
+	position: relative;
+	display: inline-block;
+}
+
+.header img{
+	width: 6%;
+	float: left;
+}
+
+/*Sizing hamburger menu*/
+i{
+	color: black;
+	float: right;
+	cursor: pointer;
+}
+
+.wrapper{
+	width: 80%;
+	margin: 6% auto;
+}
+
+.wrapper h2{
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.wrapper p{
+	font-size: 1.1em;
+	line-height: 1.5;
+	margin-bottom: 4em;
+}
+
+.grid{
+	display:flex;
+	justify-content: space-between;
+	height: auto;
+}
+
+.grid .picture{
+	width:22%;
+	min-width: 227.266px;
+	position:relative;
+	background-color: #b3b3b3;
+}
+
+.picInfo{
+	width: 100%;
+	height: auto;
+	padding: .6em;
+}
+
+.picInfo p{
+	font-size: .9em;
+	margin: .5em 0;
+}
+
+.social{
+	display: inline-block;
+	text-align: center;
+}
+
+.social img{
+	width: 15%;
+	margin:0 .8em;
+}
+
+.form{
+	width: 40%;
+	margin: 0 auto;
+}
+
+.search{
+	width: 70%;
+	border-radius:20px;
+	padding:1em;
+	border:black solid 1px;
+}
+
+.btn{
+	color: white;
+	background-color: black;
+	border:none;
+	padding:1.2em;
+}
+
+.footer{
+	display: inline-block;
+	background-color: black;
+	padding:2em 10%;
+	width: 100%;
+	height: auto;
+}
+
+.footer a{
+	color: white;
+}
+
+.fcc_link{
+	float:left;
+}
+
+.footer_social{
+	float: right;
+	text-align: right;
+}
+
+.footer_social a{
+	margin-left: 4em;
+}
+
+
+
+
+
+
+
+
